@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class ThreeSome {
+public class ThreeSum {
 
     public List<List<Integer>> convert(int[] nums) {
         Arrays.sort(nums);

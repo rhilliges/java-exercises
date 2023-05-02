@@ -2,7 +2,7 @@ package com.example;
 
 import java.util.Arrays;
 
-public class ThreeSomeClosest {
+public class ThreeSumClosest {
     public int convert(int[] nums, int target) {
         Arrays.sort(nums);
         Integer result = null;
