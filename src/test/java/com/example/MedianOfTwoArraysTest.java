@@ -2,8 +2,6 @@ package com.example;
 
 import static org.junit.Assert.assertEquals;
 
-import java.util.TreeMap;
-
 import org.junit.Test;
 
 public class MedianOfTwoArraysTest {
@@ -22,7 +20,7 @@ public class MedianOfTwoArraysTest {
 
     @Test
     public void medianOfTwoArraysTestV2() {
-        int[] nums1 = new int[] { 1, 2 }, nums2 = new int[] { 3,4 };
+        int[] nums1 = new int[] { 1, 2 }, nums2 = new int[] { 3, 4 };
         MedianOfTwoArrays converter = new MedianOfTwoArrays();
 
         double median = converter.findMedianSortedArrays(nums1, nums2);
