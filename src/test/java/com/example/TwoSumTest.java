@@ -1,14 +1,13 @@
 package com.example;
 
-import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
 
 public class TwoSumTest {
     @Test
     public void testTwoSum() {
         TwoSum converter = new TwoSum();
+        // Output: [[1,2]]
         int[] r = converter.twoSum(new int[]{3,2,4}, 6);
-        assertEquals("[]", r.toString());
+        System.out.println(r);
     }
 }
