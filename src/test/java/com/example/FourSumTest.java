@@ -41,6 +41,6 @@ public class FourSumTest {
         int[] nums = new int[] { -9,4,0,-3,6,3,-3,-9,-7,1,0,-7,-8,7, };
         FourSum converter = new FourSum();
         List<List<Integer>> result = converter.fourSum(nums, -9);
-        assertEquals("[]", result.toString());
+        assertEquals("[[-9, -8, 1, 7], [-9, -7, 1, 6], [-8, -7, 0, 6], [-9, -7, 0, 7], [-9, -3, 0, 3], [-7, -3, -3, 4], [-9, -3, -3, 6], [-7, -3, 0, 1], [-9, -9, 3, 6], [-9, -7, 3, 4], [-7, -7, 1, 4]]", result.toString());
     }
 }
