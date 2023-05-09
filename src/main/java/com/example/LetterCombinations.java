@@ -1,7 +1,6 @@
 package com.example;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class LetterCombinations {
@@ -42,7 +41,7 @@ public class LetterCombinations {
     }
 
     private void add(List<char[]> letters, int depth, String r, List<String> results) {
-        if (depth >= letters.size()) {
+        if (depth >= letters.size() - 1) {
             if (letters.size() == 0) {
                 return;
             }
